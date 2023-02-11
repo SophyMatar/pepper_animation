@@ -1,0 +1,6 @@
+topic: ~hello_world()
+# Defining extra concepts out of words or group of words
+concept:(animations) [ "pick up the sugar" "pick up the milk" "pick up the fruit"]
+
+# Replying to speech
+u:("_~animations") "Ok, I will $1" ^execute(animationExecuter, $1)
